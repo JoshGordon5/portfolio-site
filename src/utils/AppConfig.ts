@@ -1,8 +1,8 @@
 export const AppConfig = {
-  site_name: 'Astro boilerplate',
-  title: 'Astro boilerplate',
+  site_name: 'Josh Gordon Portfolio',
+  title: 'Josh Gordon',
   description: 'Boilerplate built with Astro using React and Tailwind CSS',
-  author: 'Emma',
+  author: 'Josh Gordon',
   locale_region: 'en-us',
   locale: 'en',
 };

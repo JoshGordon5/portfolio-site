@@ -1,7 +1,6 @@
 import {
   GradientText,
   HeroAvatar,
-  HeroSocial,
   Section,
 } from 'astro-boilerplate-components';
 
@@ -10,20 +9,22 @@ const Hero = () => (
     <HeroAvatar
       title={
         <>
-          Hi there, I'm <GradientText>Ixartz</GradientText> 👋
+          Hi there, I'm <GradientText>Josh</GradientText> 👋
         </>
       }
       description={
         <>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus{' '}
+          Thanks for stopping by my portfolio site! <br />
+          This site will include an{' '}
           <a className="text-cyan-400 hover:underline" href="/">
-            malesuada
+            about page
           </a>{' '}
-          nisi tellus, non imperdiet nisi tempor at. Lorem ipsum dolor sit amet,{' '}
-          <a className="text-cyan-400 hover:underline" href="/">
-            consectetur
+          to learn more about me, a{' '}
+          <a className="text-red-400 hover:underline" href="/posts">
+            blog page
           </a>{' '}
-          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+          for personal writings, a list of some projects I have developed and
+          ways to contact me. <br />
         </>
       }
       avatar={
@@ -33,34 +34,6 @@ const Hero = () => (
           alt="Avatar image"
           loading="lazy"
         />
-      }
-      socialButtons={
-        <>
-          <a href="/">
-            <HeroSocial
-              src="/assets/images/twitter-icon.png"
-              alt="Twitter icon"
-            />
-          </a>
-          <a href="/">
-            <HeroSocial
-              src="/assets/images/facebook-icon.png"
-              alt="Facebook icon"
-            />
-          </a>
-          <a href="/">
-            <HeroSocial
-              src="/assets/images/linkedin-icon.png"
-              alt="Linkedin icon"
-            />
-          </a>
-          <a href="/">
-            <HeroSocial
-              src="/assets/images/youtube-icon.png"
-              alt="Youtube icon"
-            />
-          </a>
-        </>
       }
     />
   </Section>
