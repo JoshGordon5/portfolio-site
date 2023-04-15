@@ -16,7 +16,7 @@ const Hero = () => (
         <>
           Thanks for stopping by my portfolio site! <br />
           This site will include an{' '}
-          <a className="text-cyan-400 hover:underline" href="/">
+          <a className="text-cyan-400 hover:underline" href="/about">
             about page
           </a>{' '}
           to learn more about me, a{' '}

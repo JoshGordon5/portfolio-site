@@ -4,7 +4,25 @@ const About = () => (
   <Section>
     <h1 className="text-3xl font-bold ">About Me</h1>
     <br></br>
-    <p> </p>
+    <p>
+      As mentioned previously mentioned my name is Josh! I am a recent graduate
+      of Web and Mobile Development from the University West of Scotland. As you
+      can see from my work experience I haven't always worked in tech but I was
+      always determined to work in the industry I was most interested in.{' '}
+      <br></br>
+      <br></br>
+      Once I went back to education I found a love for learning that I put in to
+      practise everyday. Rarely a day passes where I'm not learning a language -
+      Scottish Gaelic or coding - or reading and soaking up other material
+      including coding practises and history or poetry (mainly Robery Burns). I
+      feel my love of reading and learning is a perfect for my career in
+      software development. As I enjoy writing blog posts this is a great way to
+      learn new material and write about my progress.<br></br>
+      <br></br>
+      Please see below my work experiences across all industries I have worked
+      in. If you have any questions please get in touch!
+    </p>
+    <br></br>
     <h1 className="text-3xl font-bold">Work Experience</h1>
     <br></br>
     <h4 className="text-1xl font-bold">Business Coordinator - Amber Labs</h4>

@@ -1,7 +1,7 @@
 ---
 layout: '@/templates/BasePost.astro'
 title: Introduction Post
-description: An introcution post for my future blog posts
+description: An introduction post for my future blog posts
 pubDate: 2022-02-20T00:00:00Z
 imgSrc: '/assets/images/image-post4.jpeg'
 imgAlt: 'Image post 4'
